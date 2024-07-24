@@ -1,0 +1,131 @@
+/* #top-bar-wrap {
+    background-color: #f18e7d;
+    color: #ffffff;
+}
+#top-bar-wrap {
+    position: relative;
+    background-color: #f18e7d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 99;
+}
+#top-bar {
+    padding: 8px 0;
+}
+@media only screen and (max-width: 959px) {
+    .container, body.content-full-screen .elementor-section-wrap>.elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 90%;
+    }
+}
+.container {
+    width: 1280px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+#top-bar-inner {
+    position: relative;
+    display: flex;
+    max-height: 21px;
+    overflow: hidden;
+}
+#top-bar-inner, .flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+#top-bar-inner div:nth-of-type(2) {
+    flex: 1;
+    text-align: center;
+}
+#top-bar-inner div:nth-of-type(3) {
+    margin-left: auto;
+}
+.footer-widget ul, #top-bar-social ul, .acmthemes-social-menu ul, .dropdown-menu, .dropdown-menu *, .sf-menu, .sf-menu *, .sidebar-box ul, ul.product_list_widget {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#top-bar-nav>ul>li, #top-bar-social>ul>li {
+    display: inline-block;
+    float: none;
+    margin-right: 15px;
+}
+#top-bar-social li, .blog-entry.grid-entry, .blog-entry.thumbnail-entry .blog-entry-comments, .sf-menu>li, .single .prev-post-link {
+    float: left;
+}
+ul li {
+    line-height: 29px;
+}
+#top-bar-social li a {
+    color: #ffffff;
+}
+#top-bar-social li a {
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 0 6px;
+}
+#top-bar-wrap a, #top-bar-nav ul li a {
+    color: #ffffff;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    transition: .3s;
+}
+a {
+    background-color: transparent;
+    color: #1d2530;
+} */
+
+/* header code starts */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.container{
+    margin: 1rem;
+    text-align: center;
+}
+.nav{
+    background-color: #f18e7d ;   
+    /* f18e7d e28c8c*/
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.site-title{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li:active{
+    background-color: #555;
+}
+
+.nav li:hover{
+    background-color: #777;
+}
