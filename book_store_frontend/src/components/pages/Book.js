@@ -34,7 +34,7 @@ function Book() {
               cover={
                 <img
                   alt="example"
-                  src="https://hostacmee.space/demo/bookchoix/wp-content/uploads/2021/03/creativity-572x764-1-550x680.jpg"
+                  src={require("../../imgs/mastering-the-kitchen.jpg")}
                 />
               }
               actions={[
@@ -67,7 +67,8 @@ function Book() {
           </div>
         </Col>
         <Col className="gutter-row" span={6}>
-          <div style={style}>  <Card
+          <div style={style}>
+            <Card
               style={{
                 width: 250,
                 margin: "0px auto",
@@ -75,7 +76,7 @@ function Book() {
               cover={
                 <img
                   alt="example"
-                  src="https://hostacmee.space/demo/bookchoix/wp-content/uploads/2021/03/creativity-572x764-1-550x680.jpg"
+                  src={require("../../imgs/african-elephants.jpg")}
                 />
               }
               actions={[
@@ -85,8 +86,8 @@ function Book() {
               ]}
             >
               <Meta
-                title="Exploring the Creative Mind: Thinking Outside the Box"
-                description="Business, Encyclopedias"
+                title="Wildlife Photography Tips & Techniques"
+                description="wildlife"
               />
               <div class="authors-list">
                 By{" "}
@@ -104,10 +105,13 @@ function Book() {
                   Lucy
                 </a>
               </div>
-            </Card></div>
+            </Card>
+          </div>
         </Col>
         <Col className="gutter-row" span={6}>
-          <div style={style}>  <Card
+          <div style={style}>
+            {" "}
+            <Card
               style={{
                 width: 250,
                 margin: "0px auto",
@@ -115,7 +119,7 @@ function Book() {
               cover={
                 <img
                   alt="example"
-                  src="https://hostacmee.space/demo/bookchoix/wp-content/uploads/2021/03/creativity-572x764-1-550x680.jpg"
+                  src={require("../../imgs/power-of-women-572x764-1.jpg")}
                 />
               }
               actions={[
@@ -124,17 +128,14 @@ function Book() {
                 <EyeOutlined />,
               ]}
             >
-              <Meta
-                title="Exploring the Creative Mind: Thinking Outside the Box"
-                description="Business, Encyclopedias"
-              />
+              <Meta title="Will power of the Women" description="Lifestyle" />
               <div class="authors-list">
                 By{" "}
                 <a
                   href="https://hostacmee.space/demo/bookchoix/authors/ellie-thomson/"
                   rel="tag"
                 >
-                  Ellie Thomson
+                  Henry
                 </a>
                 ,
                 <a
@@ -144,10 +145,13 @@ function Book() {
                   Lucy
                 </a>
               </div>
-            </Card></div>
+            </Card>
+          </div>
         </Col>
         <Col className="gutter-row" span={6}>
-          <div style={style}>  <Card
+          <div style={style}>
+            {" "}
+            <Card
               style={{
                 width: 250,
                 margin: "0px auto",
@@ -155,7 +159,7 @@ function Book() {
               cover={
                 <img
                   alt="example"
-                  src="https://hostacmee.space/demo/bookchoix/wp-content/uploads/2021/03/creativity-572x764-1-550x680.jpg"
+                  src={require('../../imgs/mastering-photography.jpg')}
                 />
               }
               actions={[
@@ -184,7 +188,8 @@ function Book() {
                   Lucy
                 </a>
               </div>
-            </Card></div>
+            </Card>
+          </div>
         </Col>
       </Row>
 
@@ -240,7 +245,9 @@ function Book() {
           </div>
         </Col>
         <Col className="gutter-row" span={6}>
-          <div style={style}>  <Card
+          <div style={style}>
+            {" "}
+            <Card
               style={{
                 width: 250,
                 margin: "0px auto",
@@ -277,10 +284,13 @@ function Book() {
                   Lucy
                 </a>
               </div>
-            </Card></div>
+            </Card>
+          </div>
         </Col>
         <Col className="gutter-row" span={6}>
-          <div style={style}>  <Card
+          <div style={style}>
+            {" "}
+            <Card
               style={{
                 width: 250,
                 margin: "0px auto",
@@ -317,10 +327,13 @@ function Book() {
                   Lucy
                 </a>
               </div>
-            </Card></div>
+            </Card>
+          </div>
         </Col>
         <Col className="gutter-row" span={6}>
-          <div style={style}>  <Card
+          <div style={style}>
+            {" "}
+            <Card
               style={{
                 width: 250,
                 margin: "0px auto",
@@ -357,7 +370,8 @@ function Book() {
                   Lucy
                 </a>
               </div>
-            </Card></div>
+            </Card>
+          </div>
         </Col>
       </Row>
     </div>

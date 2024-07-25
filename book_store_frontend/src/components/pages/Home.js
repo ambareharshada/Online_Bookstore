@@ -22,10 +22,7 @@ function Home() {
     <div>
       <Row>
         <Col span={12}>
-          <div
-            class="slider-prefix slider-layer"
-            style={text1}
-          >
+          <div class="slider-prefix slider-layer" style={text1}>
             Embed PDF Feature
           </div>
           <div
@@ -42,7 +39,7 @@ function Home() {
               maxHeight: "none",
               maxWidth: "none",
               textAlign: "left",
-              // lineHeight: 72,
+              lineHeight: "Normal",
               letterSpacing: 1,
               fontWeight: 700,
               fontSize: 64,
@@ -50,9 +47,8 @@ function Home() {
               opacity: 1,
               transform: "perspective(600px)",
               visibility: "visible",
-              marginLeft:"130px",
+              marginLeft: "130px",
             }}
-          
           >
             Read{" "}
             <span
@@ -60,7 +56,7 @@ function Home() {
                 color: "rgb(241, 142, 125)",
                 textAlign: "left",
                 // lineHeight: 72,
-               
+
                 letterSpacing: 1,
                 fontWeight: 700,
                 fontSize: 64,
@@ -72,6 +68,23 @@ function Home() {
             <br />
             Online
           </div>
+
+          <p className="para">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua.
+          </p>
+          <a
+            href="#"
+            className="main-btn btn-hover wow fadeInUp"
+            style={{
+              visibility: "visible",
+              animationDelay: " 0.6s",
+              animationName: "fadeInUp",
+            }}
+          >
+            Download App
+          </a>
         </Col>
         <Col span={12}>
           {" "}
