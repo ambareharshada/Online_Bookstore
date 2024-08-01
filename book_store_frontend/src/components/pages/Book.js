@@ -255,7 +255,7 @@ function Book() {
               cover={
                 <img
                   alt="example"
-                  src="https://hostacmee.space/demo/bookchoix/wp-content/uploads/2021/03/creativity-572x764-1-550x680.jpg"
+                  src={require('../../imgs/interior-design-550x680.jpg')}
                 />
               }
               actions={[

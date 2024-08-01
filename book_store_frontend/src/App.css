@@ -124,4 +124,5 @@
 .main-btn:hover {
   color: #fff;
   box-shadow: 5px 5px 2px rgba(232, 80, 91, 0.45);
+  background-image: url('../src/imgs/ellie-thomson-150x150.jpg');
 }

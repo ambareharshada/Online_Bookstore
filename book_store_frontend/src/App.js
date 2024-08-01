@@ -53,7 +53,7 @@ function App() {
               </Routes>
             </div>
           </Content>
-          <Footer style={footerStyle}>Footer</Footer>
+          <Footer style={footerStyle}>My Company ©2024 Created by Me</Footer>
         </Layout>
       </Flex>
     </div>
