@@ -4,8 +4,17 @@ const app = express();
 const port = 5007;
 const connectDB = require("./auth/db");
 const apiRoutes = require("./routes/api");
+const cors = require('cors')
 //Database Connection
 connectDB();
+
+
+const corsOptions = {
+  origin: "http://localhost:3000",
+  optionsSuccessStatus: 200,
+};
+ 
+app.use(cors(corsOptions));
 
 app.use(bodyParser.json());
 app.use(express.json());
