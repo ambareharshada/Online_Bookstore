@@ -113,7 +113,7 @@ const Book = () => {
                   cover={
                     <img
                       alt="example"
-                      src={require("../../imgs/african-elephants.jpg")}
+                      src={require("../../imgs/Shreeman_Yogi.jpg")}
                     />
                   }
                   actions={[
