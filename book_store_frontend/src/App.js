@@ -18,10 +18,8 @@ const headerStyle = {
 };
 const contentStyle = {
   textAlign: "center",
-  // minHeight:500,
   lineHeight: "120px",
   color: "#000",
-  // backgroundColor: "#0958d9",
   backgroundImage:"url('https://hostacmee.space/demo/bookchoix/wp-content/uploads/revslider/slider-1/slider-bg-stationary.png')"
 };
 const footerStyle = {
