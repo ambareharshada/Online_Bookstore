@@ -12,6 +12,7 @@ export default function Navbar() {
         </Link>
         <ul>
           <Link to="/book">Books</Link>
+          <Link to="/sell-book">Sell Your Books</Link>
           <Link to="/about">About Us</Link>
           <Link to="/contact">Contact Us</Link>
         </ul>

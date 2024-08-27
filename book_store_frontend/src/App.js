@@ -6,7 +6,8 @@ import Book from "./components/pages/Book";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import { Flex, Layout } from "antd";
-const { Header, Footer, Sider, Content } = Layout;
+import Sellbook from "./components/pages/Sell-book";
+const { Header, Footer,  Content } = Layout;
 const headerStyle = {
   // textAlign: "center",
   // color: "#fff",
@@ -48,6 +49,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/book" element={<Book />} />
+                <Route path="/sell-book" element={<Sellbook />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>

@@ -31,8 +31,8 @@ const Book = () => {
     setIsModalOpen(false);
   };
 
-  // use effect for get all doctors data
-  const fetchPatientsData = useRef(async () => {
+  // use effect for get all books data
+  const fetchBooksData = useRef(async () => {
     try {
       const response = await axios.get(
         `http://localhost:5007/api/books/getAllBooks/`
@@ -45,8 +45,8 @@ const Book = () => {
   });
 
   useEffect(() => {
-    fetchPatientsData.current();
-  }, [fetchPatientsData]);
+    fetchBooksData.current();
+  }, [fetchBooksData]);
 
   return (
     <div>
